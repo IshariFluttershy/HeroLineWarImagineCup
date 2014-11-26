@@ -6,6 +6,8 @@ public class CameraMovement : MonoBehaviour {
 	private Transform trans;
 	[SerializeField]
 	private float speed = 1;
+	[SerializeField]
+	private GameObject Player;
 
 	void Awake()
 	{
@@ -20,6 +22,9 @@ public class CameraMovement : MonoBehaviour {
 	{
 		KeyBoardDeplacement();
 		MouseDeplacement();
+
+		if (Input.GetKey(KeyCode.Space))
+			CenterPlayer();
 	}
 
 	void MouseDeplacement()
@@ -44,5 +49,12 @@ public class CameraMovement : MonoBehaviour {
 			trans.Translate(Vector3.right * speed * Time.deltaTime, Space.World);
 		if (Input.GetKey(KeyCode.DownArrow))
 			trans.Translate(Vector3.back * speed * Time.deltaTime, Space.World);
+	}
+
+	void CenterPlayer()
+	{
+		Vector3 center = new Vector3(Player.transform.position.x, this.trans.position.y, Player.transform.position.z - 8);
+
+		this.trans.position = center;
 	}
 }
