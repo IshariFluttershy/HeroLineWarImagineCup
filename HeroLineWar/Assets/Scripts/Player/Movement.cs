@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour {
 
 	void Awake()
 	{
-		trans = transform;
+        trans = transform;
 	}
 
 	void Start () 
