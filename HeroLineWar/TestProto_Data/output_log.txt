@@ -10,8 +10,40 @@ Platform assembly: C:\Users\boraccino\Documents\HeroLineWarImagineCup\HeroLineWa
 Loading C:\Users\boraccino\Documents\HeroLineWarImagineCup\HeroLineWar\TestProto_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\boraccino\Documents\HeroLineWarImagineCup\HeroLineWar\TestProto_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\boraccino\Documents\HeroLineWarImagineCup\HeroLineWar\TestProto_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.140 seconds
+- Completed reload, in  0.145 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+LOLUSSE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

@@ -3,7 +3,6 @@ using System.Collections;
 
 public class NetworkServer : MonoBehaviour {
 
-
     public Transform playerPrefab;
     public ArrayList playerScripts = new ArrayList();
 
@@ -23,16 +22,8 @@ public class NetworkServer : MonoBehaviour {
         int playerNumber = int.Parse(tempPlayerString);
 
         Transform newPlayerTransform = (Transform)Network.Instantiate(playerPrefab, transform.position, transform.rotation, playerNumber);
-        playerScripts.Add(newPlayerTransform.GetComponent("CubeMoveAuthoritative"));
+        playerScripts.Add(newPlayerTransform.GetComponent("ProtoMovement"));
         NetworkView theNetworkView = newPlayerTransform.networkView;
         theNetworkView.RPC("SetPlayer", RPCMode.AllBuffered, player);
     }
-
-	void Start () {
-	
-	}
-	
-	void Update () {
-	
-	}
 }

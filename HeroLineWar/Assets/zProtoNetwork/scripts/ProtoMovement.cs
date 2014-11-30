@@ -36,7 +36,7 @@ public class ProtoMovement : MonoBehaviour {
     {
         if (Owner != null && Network.player == Owner)
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(1))
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
