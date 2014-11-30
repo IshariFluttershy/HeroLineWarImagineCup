@@ -46,13 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ProtoAttack.cs" />
+     <Compile Include="Assets\ProtoSelection.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Selectable.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\CubeMoveAuthoritative.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\NetworkMove.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\NetworkServer.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\NetworkTuto.cs" />
+     <Compile Include="Assets\zProtoNetwork\scripts\ProtoAttack.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\ProtoMovement.cs" />
      <Compile Include="Assets\zProtoNetwork\scripts\SpawnCube.cs" />
   </ItemGroup>
