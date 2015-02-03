@@ -28,6 +28,5 @@ public class ProtoSelection : MonoBehaviour {
                     selectedOverlay.localScale = hit.collider.transform.localScale * 1.1f;
                 }
             }
-	
 	}
 }

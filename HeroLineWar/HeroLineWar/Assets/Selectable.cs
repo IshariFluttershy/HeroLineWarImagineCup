@@ -3,13 +3,9 @@ using System.Collections;
 
 public class Selectable : MonoBehaviour {
 
-	// Use this for initialization
+    private Material material;
+
 	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+        material = GetComponent<MeshRenderer>().material;
 	}
 }
